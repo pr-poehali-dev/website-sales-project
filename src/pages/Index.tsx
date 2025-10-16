@@ -181,6 +181,36 @@ export default function Index() {
       </header>
 
       <main className="container mx-auto px-4 py-8">
+        <div className="bg-white rounded-lg p-6 mb-8 border border-gray-200">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl font-bold text-[#1E293B] mb-3">О магазине</h2>
+            <p className="text-lg text-muted-foreground mb-6">Работаем быстро и качественно</p>
+            <div className="grid md:grid-cols-3 gap-4">
+              <div className="flex flex-col items-center p-4">
+                <div className="bg-primary/10 rounded-full p-3 mb-3">
+                  <Icon name="Zap" size={24} className="text-primary" />
+                </div>
+                <h3 className="font-semibold mb-1">Быстро</h3>
+                <p className="text-sm text-muted-foreground">Оперативная обработка заказов</p>
+              </div>
+              <div className="flex flex-col items-center p-4">
+                <div className="bg-primary/10 rounded-full p-3 mb-3">
+                  <Icon name="Shield" size={24} className="text-primary" />
+                </div>
+                <h3 className="font-semibold mb-1">Качественно</h3>
+                <p className="text-sm text-muted-foreground">Только оригинальная техника</p>
+              </div>
+              <div className="flex flex-col items-center p-4">
+                <div className="bg-primary/10 rounded-full p-3 mb-3">
+                  <Icon name="Headphones" size={24} className="text-primary" />
+                </div>
+                <h3 className="font-semibold mb-1">Надежно</h3>
+                <p className="text-sm text-muted-foreground">Гарантия на все товары</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="mb-8">
           <div className="relative max-w-2xl mx-auto">
             <Icon name="Search" size={20} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground" />

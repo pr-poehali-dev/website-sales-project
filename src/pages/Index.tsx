@@ -84,11 +84,6 @@ export default function Index() {
             </div>
             
             <div className="flex items-center gap-4">
-              <a href="tel:89226125076" className="flex items-center gap-2 text-[#1E293B] hover:text-primary transition-colors">
-                <Icon name="Phone" size={20} />
-                <span className="font-semibold hidden sm:inline">8 (922) 612-50-76</span>
-              </a>
-              
               <Sheet>
                 <SheetTrigger asChild>
                   <Button variant="outline" className="relative">
@@ -157,8 +152,8 @@ export default function Index() {
                               {totalPrice.toLocaleString('ru-RU')} ₽
                             </span>
                           </div>
-                          <Button className="w-full" size="lg" asChild>
-                            <a href="tel:89226125076">Оформить заказ</a>
+                          <Button className="w-full" size="lg">
+                            Оформить заказ
                           </Button>
                         </div>
                       </>
@@ -261,10 +256,7 @@ export default function Index() {
       <footer className="bg-white border-t border-gray-200 mt-16">
         <div className="container mx-auto px-4 py-8">
           <div className="text-center">
-            <h3 className="font-bold text-lg mb-2">Контакты</h3>
-            <a href="tel:89226125076" className="text-primary hover:underline text-lg font-semibold">
-              8 (922) 612-50-76
-            </a>
+            <p className="text-muted-foreground">© 2024 Electronics Store</p>
           </div>
         </div>
       </footer>

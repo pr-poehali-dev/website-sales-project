@@ -19,7 +19,7 @@ interface CartItem extends Product {
 }
 
 const products: Product[] = [
-  { id: 1, name: 'iPhone 15 Pro', category: 'Смартфоны', price: 89990, image: 'https://v3b.fal.media/files/b/panda/fGmvbwfK1NIz6LoyRHg9b_output.png' },
+  { id: 1, name: 'iPhone 15 Pro', category: 'Смартфоны', price: 89990, image: 'https://cdn.poehali.dev/files/8d58d243-21b7-4ad0-bef6-156810f19b72.png' },
   { id: 2, name: 'MacBook Air M2', category: 'Ноутбуки', price: 124990, image: 'https://v3b.fal.media/files/b/panda/fGmvbwfK1NIz6LoyRHg9b_output.png' },
   { id: 3, name: 'AirPods Pro 2', category: 'Наушники', price: 24990, image: 'https://v3b.fal.media/files/b/panda/fGmvbwfK1NIz6LoyRHg9b_output.png' },
   { id: 4, name: 'iPad Pro 12.9', category: 'Планшеты', price: 109990, image: 'https://v3b.fal.media/files/b/panda/fGmvbwfK1NIz6LoyRHg9b_output.png' },

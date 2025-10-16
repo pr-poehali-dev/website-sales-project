@@ -157,18 +157,9 @@ export default function Index() {
                               {totalPrice.toLocaleString('ru-RU')} ₽
                             </span>
                           </div>
-                          <div className="space-y-3">
-                            <div className="bg-muted p-3 rounded-lg">
-                              <p className="text-sm font-semibold mb-2">Доставка и оплата</p>
-                              <p className="text-xs text-muted-foreground mb-1">Оплата переводом на номер:</p>
-                              <a href="tel:89221193616" className="text-sm font-bold text-primary hover:underline">
-                                8 (922) 119-36-16
-                              </a>
-                            </div>
-                            <Button className="w-full" size="lg" asChild>
-                              <a href="tel:89221193616">Оформить заказ</a>
-                            </Button>
-                          </div>
+                          <Button className="w-full" size="lg" asChild>
+                            <a href="tel:89226125076">Оформить заказ</a>
+                          </Button>
                         </div>
                       </>
                     )}
@@ -269,26 +260,11 @@ export default function Index() {
 
       <footer className="bg-white border-t border-gray-200 mt-16">
         <div className="container mx-auto px-4 py-8">
-          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
-            <div className="text-center md:text-left">
-              <h3 className="font-bold text-lg mb-3 flex items-center gap-2 justify-center md:justify-start">
-                <Icon name="Phone" size={20} className="text-primary" />
-                Контакты
-              </h3>
-              <a href="tel:89226125076" className="text-primary hover:underline text-lg font-semibold block">
-                8 (922) 612-50-76
-              </a>
-            </div>
-            <div className="text-center md:text-left">
-              <h3 className="font-bold text-lg mb-3 flex items-center gap-2 justify-center md:justify-start">
-                <Icon name="CreditCard" size={20} className="text-primary" />
-                Доставка и оплата
-              </h3>
-              <p className="text-sm text-muted-foreground mb-2">Оплата переводом на номер:</p>
-              <a href="tel:89221193616" className="text-primary hover:underline text-lg font-semibold block">
-                8 (922) 119-36-16
-              </a>
-            </div>
+          <div className="text-center">
+            <h3 className="font-bold text-lg mb-2">Контакты</h3>
+            <a href="tel:89226125076" className="text-primary hover:underline text-lg font-semibold">
+              8 (922) 612-50-76
+            </a>
           </div>
         </div>
       </footer>
